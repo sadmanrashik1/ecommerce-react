@@ -14,7 +14,7 @@ const getThemeFromLocalStorage = () => {
 }
 
 const Navbar = () => {
-  const [theme, setTheme] = useState(false)
+  const [theme, setTheme] = useState('winter')
 
   const handleTheme = () => {
     const { winter, dracula } = themes
